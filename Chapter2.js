@@ -1,7 +1,4 @@
-// Eloquent Javascript - Sample Solutions
-
 // Chapter 2
-
 
 // Looping a Triangle:
 
@@ -10,7 +7,6 @@ for (var i = 1; i <= 7; i++) {
 		string += "#";
 		console.log(string);
 	}
-
 
 
 // FizzBuzz
@@ -40,7 +36,8 @@ for (var i = 1; i <=100; i++) {
 	}
 }
 
-// Chess Board Generatorches
+
+// Chess Board Generator
 // Generates chess board of given size 
 
 function chessBoardGenerator (size) {
@@ -64,5 +61,3 @@ function chessBoardGenerator (size) {
 	}
 	return string;
 }
-
-
