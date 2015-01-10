@@ -5,6 +5,7 @@ function range(start, end, step) {
 		step = 1;
 	else 
 		step = -1;
+		
 	// Two loops each for positive and negative steps
 	var returnArray = [];
 	var length = Math.abs(end - start);
