@@ -1,6 +1,5 @@
 // Pass in array of arrays and return single 
 // array containing all passed in arrays
-var arrays = [[1, 2, 3], [4, 5], [6]];
 function flatten(array) {
 	var returnArray = [];
 	returnArray = array.reduce(function(a, b) {
